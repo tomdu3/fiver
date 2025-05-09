@@ -81,3 +81,10 @@ From there, start the server with:
 uv run --with jupyter jupyter lab
 ```
 See more: https://docs.astral.sh/uv/guides/integration/jupyter/
+
+## Resources
+
+- `.gitignore` generate with
+  ```sh
+  curl -JL https://raw.githubusercontent.com/github/gitignore/refs/heads/main/Python.gitignore -o .gitignore
+  ```
